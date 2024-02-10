@@ -3,7 +3,7 @@ from telegram.ext import Updater, MessageHandler, CommandHandler, Filters
 from secret import TOKEN
 
 state = 0
-reply_keyboard = [['Буллинг', 'Ученик - ученик'], ['Ученик - ученица', 'Группа - группа'], ['Назад']]
+reply_keyboard = [['Буллинг', 'Ученик - ученик'], ['Ученик - ученица', 'Группа - группа']]
 markup = ReplyKeyboardMarkup(reply_keyboard, one_time_keyboard=False)
 
 
